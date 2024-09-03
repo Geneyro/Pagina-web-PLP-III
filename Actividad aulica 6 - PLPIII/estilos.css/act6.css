@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container1 ul{
+    float: right;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #2b2b2b;
+    color: white;
+    padding: 20px 0;
+    border-bottom: 3px solid #bada55;
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+header h1 span {
+    display: block;
+    font-size: 12px;
+    color: #ddd;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+    color: #bada55;
+}
+
+.main-content {
+    margin: 50px 0;
+    display: flex;
+}
+
+.container1{
+    width: 100%;
+}
+
+.hero {
+    display: flex;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    align-items: center;
+}
+
+.hero img {
+    max-width: 50%;
+    margin-right: 20px;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero h2 {
+    font-size: 24px;
+}
+
+.hero p {
+    margin: 10px 0;
+}
+
+.button {
+    background-color: #bada55;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.welcome {
+    float: left;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: white;
+    border-left: 5px solid #bada55;
+}
+
+.welcome h2 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.welcome ul {
+    list-style: disc;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.latest-news {
+    float: left;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: white;
+}
+
+.latest-news h2 {
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.latest-news ul {
+    list-style: none;
+}
+
+.latest-news ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #2b2b2b;
+    color: white;
+    padding: 40px 0;
+    margin-top: 40px;
+    text-align: center;
+}
+
+footer .footer-col {
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+}
+
+footer h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    color: #bada55;
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #aaa;
+}
+
